@@ -102,7 +102,7 @@ model = None
 def load_model():
     global model
     try:
-        with open('C:/COOLYEAH/SEM 4/Model Deployment/UAS/best_obesity_model.pkl', 'rb') as file:
+        with open('best_obesity_model.pkl', 'rb') as file:
             model= pickle.load(file)
 
         print("Model loaded successfully!")
