@@ -4,12 +4,11 @@ wheel
 
 fastapi
 uvicorn
+scikit-learn==1.2.2
 streamlit
-requests
-scikit-learn==1.3.0
 pandas
 numpy
+requests
 joblib
 plotly
-python-multipart
 matplotlib
